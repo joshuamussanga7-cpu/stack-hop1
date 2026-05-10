@@ -9,7 +9,7 @@ public class Main {
             File htmlFile = new File("index.html");
             if (htmlFile.exists()) {
                 Desktop.getDesktop().browse(htmlFile.toURI());
-                System.out.println("Launching Stack Hop Privacy Policy & Game...");
+                System.out.println("Launching Stack Hop Privacy Policy...");
             } else {
                 System.out.println("Error: index.html not found in project root.");
             }
